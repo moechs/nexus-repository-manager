@@ -2,6 +2,32 @@ apiVersion: v1
 entries:
   nexus-repository-manager:
   - apiVersion: v2
+    appVersion: 3.97.2
+    created: "2026-10-24T03:33:31.084190868Z"
+    deprecated: true
+    description: Nexus Repository Manager 3 Single‑Instance Helm Chart
+    digest: 38019ce7405aeee967ca26c642385ed12a87b7f0a15a5883ce8aff85f6725b96
+    home: https://www.sonatype.com/nexus-repository-oss
+    icon: https://sonatype.github.io/helm3-charts/NexusRepo_Vertical.svg
+    keywords:
+    - artifacts
+    - dependency
+    - management
+    - sonatype
+    - nexus
+    - repository
+    - quickstart
+    - ci
+    - repository-manager
+    - nexus3
+    name: nexus-repository-manager
+    sources:
+    - https://github.com/sonatype/nexus-public
+    type: application
+    urls:
+    - https://github.com/moechs/nexus-repository-manager/releases/download/nexus-repository-manager-88.11.2/nexus-repository-manager-88.11.2.tgz
+    version: 88.11.2
+  - apiVersion: v2
     appVersion: 3.97.1
     created: "2026-10-21T03:34:49.626458654Z"
     deprecated: true
@@ -755,4 +781,4 @@ entries:
     urls:
     - https://github.com/moechs/nexus-repository-manager/releases/download/nexus-repository-manager-88.1.0/nexus-repository-manager-88.1.0.tgz
     version: 88.1.0
-generated: "2026-10-21T03:34:49.626704Z"
+generated: "2026-10-24T03:33:31.084501225Z"
